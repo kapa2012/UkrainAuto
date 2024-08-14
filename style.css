@@ -1,0 +1,114 @@
+body{
+	font-size:18px;
+	margin:0;
+}
+header nav{
+	padding:1% 3%;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	background-color:black;
+}
+.navy{
+	display:flex;
+	justify-content:space-between;
+}
+.block{
+	width:75%;
+}
+header p{
+	text-align:right;
+	color:white;
+}
+header h1{
+	font-size:50px;
+	color:yellow;
+}
+header span{
+	color:blue;
+}
+header a{
+	text-decoration: none;
+	color:white;
+	font-size:22px;
+	padding:1% 2%;
+	border:2px solid  transparent;
+	transition:1s;
+}
+header a:hover{
+	border-bottom:2px solid  white;
+}
+header{
+	margin:0;
+	background-image:url("https://media.istockphoto.com/id/943054428/ru/%D1%84%D0%BE%D1%82%D0%BE/%D0%B1%D0%B5%D1%80%D0%B5%D0%B3%D0%BE%D0%B2%D0%B0%D1%8F-%D0%BB%D0%B8%D0%BD%D0%B8%D1%8F-%D0%B4%D0%BE%D1%80%D0%BE%D0%B3%D0%B8.jpg?s=612x612&w=0&k=20&c=vpM6Z6wKk55QR78Gwtxn8LA3kosNqha7pTHLx7LZNAE=");
+    height:80vh;
+	position:relative;
+	background-size:cover;
+}
+header img{
+	position:absolute;
+	width:50%;
+	left:40%;
+	top:50%;
+}
+.product{
+	display:flex;
+	justify-content:space-evenly;
+	padding: 3% 2%;
+	flex-wrap:wrap;
+	margin-top:100px;
+}
+.product article{
+	width:40%;
+	overflow:hidden;
+	border-radius:7px;
+	box-shadow: 0 0 5px 3px rgba(0,0,0,0.4);
+	margin-bottom:25px;
+}
+.product h2, p{
+	padding: 1% 3%;
+}
+.product h2{
+	text-align:center;
+}
+.product p{
+	text-align:justify;
+}
+.product img{
+	width:100%;
+}
+main h1{
+	margin-left:8%;
+}
+.remont{
+	display:flex;
+	justify-content:space-evenly;
+	flex-wrap:wrap;
+}
+.remont article{
+    margin-bottom:3%;
+	display:flex;
+	flex-direction:column;
+	justify-content:space-between;
+	width:20%;
+	border:2px solid black;
+}
+.remont img{
+	width:100%;
+}
+.remont h2{
+	text-transform:uppercase;
+	text-align:center;
+}
+.remont p{
+	padding:0 3% 3% 3%;
+	text-transform:lowercase; 
+	text-align:justify;
+}
+footer{
+	background-color:#c1b2af;
+	padding:2%;
+	display:flex;
+	justify-content:space-evenly;
+	margin:0;
+}
